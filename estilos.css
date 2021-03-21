@@ -6,7 +6,33 @@
 
 
 nav {
-	background-color: green;
-	padding: 0 10% 0 10%;
+	/*background-color: gray;*/
+	padding: 20px 10% 20px 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
 
 }
+
+
+.links a {
+	text-decoration: none;
+	font-family: 'Syne Mono', monospace;
+	font-size: 1.1em;
+	margin: 0px 5px 0px 5px;
+	color: black;
+}
+
+.boton1 {
+	border: none;
+	padding: 10px 25px 10px 25px;
+	border-radius: 20px;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+
+
